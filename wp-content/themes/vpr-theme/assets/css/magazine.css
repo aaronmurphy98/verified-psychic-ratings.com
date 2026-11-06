@@ -8,3 +8,10 @@ body{background:#fffdfa;color:var(--mag-ink);font-family:Georgia,serif}.site-hea
 .mag-guide span { color: #86602d; }
 .menu-toggle { flex-shrink: 0; min-width: 44px; min-height: 44px; align-items: center; justify-content: center; }
 .menu-toggle svg { width: 24px; height: 24px; }
+
+/* Homepage editorial images */
+.hp-fig-wrap{max-width:1180px;margin:0 auto;padding:clamp(20px,4vw,48px) 20px}
+.hp-fig{margin:0;border-radius:18px;overflow:hidden;border:1px solid #E7E5E4;box-shadow:0 12px 36px rgba(28,25,23,.12)}
+.hp-fig img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.hp-fig--hero img{aspect-ratio:21/9}
+@media(max-width:640px){.hp-fig-wrap{padding:20px 16px}.hp-fig{border-radius:12px}.hp-fig--hero img{aspect-ratio:4/3}}
